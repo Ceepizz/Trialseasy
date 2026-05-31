@@ -1,0 +1,52 @@
+local TDS = loadstring(game:HttpGet("https://raw.githubusercontent.com/DuxiiT/auto-strat/refs/heads/main/Library.lua"))()
+TDS:Loadout("Cowboy", "Turret", "Gatling Gun", "Mercenary Base", "DJ Booth")
+TDS:Mode("Trial")
+TDS:Place("Cowboy", 17.048938751220703, 26.77671241760254, -154.32559204101562, true)
+TDS:Ready()
+TDS:Upgrade(1)
+TDS:Place("Cowboy", 17.122238159179688, 26.895519256591797, -153.84042358398438, true)
+TDS:Upgrade(2)
+TDS:Place("Cowboy", 16.97588348388672, 26.88679313659668, -153.69415283203125, true)
+TDS:Upgrade(3)
+TDS:Place("Cowboy", 16.981985092163086, 26.776426315307617, -154.28811645507812, true)
+TDS:Upgrade(4)
+TDS:Place("Cowboy", 16.890531539916992, 26.784299850463867, -154.18955993652344, true)
+TDS:Upgrade(5)
+TDS:Place("Cowboy", 16.911357879638672, 26.84233856201172, -153.899169921875, true)
+for i = 1, 2 do TDS:Upgrade(6) end
+TDS:Upgrade(4)
+TDS:Upgrade(3)
+TDS:Upgrade(1)
+TDS:Upgrade(2)
+TDS:Upgrade(5)
+TDS:Place("Gatling Gun", 26.261837005615234, 27.38028335571289, -150.20753479003906, true)
+TDS:Place("DJ Booth", 17.038692474365234, 27.316484451293945, -150.7567138671875, true)
+for i = 1, 2 do TDS:Upgrade(8) end
+TDS:SetOption(8, "Track", "Green")
+TDS:Upgrade(8)
+for i = 1, 3 do TDS:Upgrade(7) end
+for i = 1, 2 do TDS:Upgrade(8) end
+for i = 1, 2 do TDS:Upgrade(1) end
+for i = 1, 2 do TDS:Upgrade(2) end
+for i = 1, 2 do TDS:Upgrade(3) end
+for i = 1, 2 do TDS:Upgrade(4) end
+for i = 1, 2 do TDS:Upgrade(5) end
+for i = 1, 2 do TDS:Upgrade(6) end
+TDS:Place("Mercenary Base", 26.039710998535156, 27.353515625, -146.49281311035156, true)
+TDS:Place("Mercenary Base", 27.445770263671875, 27.419574737548828, -147.6380615234375, true)
+TDS:Place("Mercenary Base", 28.394018173217773, 27.467180252075195, -149.50839233398438, true)
+for i = 1, 4 do TDS:Upgrade(9) end
+for i = 1, 3 do TDS:SetOption(9, "Unit 1", "Riot Guard") end
+for i = 1, 2 do TDS:Upgrade(9) end
+for i = 1, 3 do TDS:Upgrade(7) end
+TDS:SetOption(8, "Track", "Red")
+for i = 1, 4 do TDS:Upgrade(10) end
+for i = 1, 3 do TDS:SetOption(10, "Unit 1", "Riot Guard") end
+for i = 1, 5 do TDS:Upgrade(11) end
+for i = 1, 3 do TDS:SetOption(11, "Unit 1", "Field Medic") end
+for i = 1, 2 do TDS:Upgrade(10) end
+TDS:Upgrade(11)
+for i = 1, 3 do TDS:Place("Turret", 4.848073959350586, 28.29608154296875, -154.0507354736328, true) end
+for i = 1, 5 do TDS:Upgrade(12) end
+for i = 1, 5 do TDS:Upgrade(13) end
+for i = 1, 5 do TDS:Upgrade(14) end
