@@ -67,10 +67,10 @@ TDS:SetOption(8, "Track", "Red")
 for i = 1, 4 do TDS:Upgrade(16) end
 for i = 1, 4 do TDS:SetOption(16, "Unit 2", "Riot Guard") end
 for i = 1, 2 do TDS:Upgrade(16) end
-for i = 1, 5 do TDS:Upgrade(19) end
+for i = 1, 5 do TDS:Upgrade(17) end
 for i = 1, 3 do TDS:SetOption(17, "Unit 1", "Field Medic") end
 TDS:Upgrade(17)
 for i = 1, 3 do TDS:Place("Turret", 391.7199401855469, 54.68607711791992, -107.31197357177734, true) end
-for i = 1, 5 do TDS:Upgrade(12) end
-for i = 1, 5 do TDS:Upgrade(13) end
-for i = 1, 5 do TDS:Upgrade(14) end
+for i = 1, 5 do TDS:Upgrade(18) end
+for i = 1, 5 do TDS:Upgrade(19) end
+for i = 1, 5 do TDS:Upgrade(20) end
