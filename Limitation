@@ -1,8 +1,6 @@
 local TDS = loadstring(game:HttpGet("https://raw.githubusercontent.com/Ceepizz/guitheme/refs/heads/main/Aetherv2"))()
-
 TDS:Loadout("Cowboy", "Turret", "Gatling Gun", "Mercenary Base", "DJ Booth")
 TDS:Mode("Trial")
-
 TDS:Place("Cowboy", 388.0254821777344, 54.38782501220703, -113.3760986328125, true)
 TDS:Ready()
 TDS:Upgrade(1)
@@ -24,14 +22,14 @@ TDS:Place("Gatling Gun", 381.2389831542969, 54.543399810791016, -110.49711608886
 TDS:Place("DJ Booth", 379.7273254394531, 54.61418914794922, -103.9626693725586)
 TDS:SetOption(9, "Track", "Green")
 for i = 1, 3 do TDS:Upgrade(8) end
-for i = 1, 3 do TDS:Upgrade(7) end
+for i = 1, 2 do TDS:Upgrade(7) end
 TDS:Sell(1)
 TDS:Sell(2)
 TDS:Sell(3)
 TDS:Sell(4)
 TDS:Sell(5)
 TDS:Sell(6)
-TDS:Upgrade(8)
+TDS:Upgrade(7)
 TDS:Place("Cowboy", 371.55999755859375, 54.70710372924805, -103.56725311279297, true)
 TDS:Place("Cowboy", 372.7779846191406, 55.0320930480957, -104.90534973144531, true)
 TDS:Place("Cowboy", 372.1257629394531, 54.7747802734375, -103.61803436279297, true)
@@ -61,10 +59,10 @@ TDS:Place("Mercenary Base", 385.4564208984375, 54.733638763427734, -104.18543243
 for i = 1, 4 do TDS:Upgrade(15) end
 for i = 1, 3 do TDS:SetOption(15, "Unit 1", "Riot Guard") end
 for i = 1, 2 do TDS:Upgrade(15) end
-for i = 1, 2 do TDS:Upgrade(8) end
+for i = 1, 2 do TDS:Upgrade(7) end
 TDS:Place("Mercenary Base", 375.8604736328125, 54.69963455200195, -107.14932250976562)
 TDS:Place("Mercenary Base", 394.4890441894531, 54.560848236083984, -103.73100280761719)
-TDS:Upgrade(8)
+TDS:Upgrade(7)
 TDS:SetOption(8, "Track", "Red")
 for i = 1, 4 do TDS:Upgrade(16) end
 for i = 1, 4 do TDS:SetOption(16, "Unit 2", "Riot Guard") end
