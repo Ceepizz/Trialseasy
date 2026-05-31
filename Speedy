@@ -1,4 +1,4 @@
-local TDS = loadstring(game:HttpGet("https://raw.githubusercontent.com/DuxiiT/auto-strat/refs/heads/main/Library.lua"))()
+local TDS = loadstring(game:HttpGet("https://raw.githubusercontent.com/Ceepizz/guitheme/refs/heads/main/Aetherv2"))()
 TDS:Addons()
 TDS:Loadout("Turret", "Cowboy", "Gatling Gun", "Mercenary Base", "DJ Booth")
 TDS:Mode("Trial")
@@ -53,5 +53,5 @@ TDS:Place("Turret", 0.6027007102966309, 3.59997820854187, 16.0738582611084, true
 for i=1,5 do TDS:Upgrade(12) end
 TDS:Place("Turret", 4.663760662078857, 3.59997820854187, 15.73977279663086, true)
 for i=1,5 do TDS:Upgrade(13) end
-TDS:Place("Turret", (8.8180570602417, 3.59997820854187, 15.845666885375977, true)
+TDS:Place("Turret", 8.8180570602417, 3.59997820854187, 15.845666885375977, true)
 for i=1,5 do TDS:Upgrade(14) end
