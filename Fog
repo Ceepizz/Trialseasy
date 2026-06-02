@@ -1,0 +1,60 @@
+local TDS = loadstring(game:HttpGet("https://raw.githubusercontent.com/Ceepizz/guitheme/refs/heads/main/Aetherv2"))()
+TDS:Loadout("Cowboy", "Turret", "Gatling Gun", "Mercenary Base", "DJ Booth")
+TDS:Mode("Trial")
+TDS:Ready()
+TDS:Place("Cowboy", -8.004199028015137, 0.990230143070221, 44.13005828857422, true)
+TDS:Place("Cowboy", -8.004199028015137, 0.990230143070221, 44.13005828857422, true)
+TDS:Place("Cowboy", -8.004199028015137, 0.990230143070221, 44.13005828857422, true)
+TDS:Place("Cowboy", -8.004199028015137, 0.990230143070221, 44.13005828857422, true)
+TDS:Place("Cowboy", -8.004199028015137, 0.990230143070221, 44.13005828857422, true)
+TDS:Place("Cowboy", -8.004199028015137, 0.990230143070221, 44.13005828857422, true)
+TDS:Upgrade(1)
+TDS:Upgrade(2)
+TDS:Upgrade(3)
+TDS:Upgrade(4)
+TDS:Upgrade(5)
+TDS:Upgrade(6)
+TDS:Upgrade(1)
+TDS:Upgrade(2)
+TDS:Upgrade(3)
+TDS:Upgrade(4)
+TDS:Upgrade(5)
+TDS:Upgrade(6)
+TDS:Place("Gatling Gun", -8.004199028015137, 0.990230143070221, 44.13005828857422, true)
+TDS:Place("DJ Booth", -8.004199028015137, 0.990230143070221, 44.13005828857422, true)
+for i = 1, 2 do TDS:Upgrade(8) end
+TDS:SetOption(8, "Track", "Green")
+TDS:Upgrade(8)
+for i = 1, 3 do TDS:Upgrade(7) end
+for i = 1, 2 do TDS:Upgrade(8) end
+for i = 1, 2 do TDS:Upgrade(4) end
+for i = 1, 2 do TDS:Upgrade(2) end
+for i = 1, 2 do TDS:Upgrade(1) end
+for i = 1, 2 do TDS:Upgrade(6) end
+TDS:Upgrade(3)
+TDS:Upgrade(5)
+TDS:Upgrade(3)
+TDS:Upgrade(5)
+TDS:Place("Mercenary Base", -8.004199028015137, 0.990230143070221, 44.13005828857422, true)
+for i = 1, 4 do TDS:Upgrade(9) end
+for i = 1, 3 do TDS:SetOption(9, "Unit 1", "Riot Guard") end
+TDS:Upgrade(9)
+for i = 1, 3 do TDS:Upgrade(7) end
+TDS:SetOption(8, "Track", "Red")
+for i = 1, 3 do TDS:SetOption(8, "Track", "Green") end
+TDS:Upgrade(9)
+TDS:Place("Mercenary Base", -8.004199028015137, 0.990230143070221, 44.13005828857422, true)
+TDS:Place("Mercenary Base", -8.004199028015137, 0.990230143070221, 44.13005828857422, true)
+for i = 1, 4 do TDS:Upgrade(10) end
+TDS:SetOption(8, "Track", "Red")
+for i = 1, 2 do TDS:Upgrade(10) end
+for i = 1, 3 do TDS:SetOption(10, "Unit 1", "Riot Guard") end
+for i = 1, 5 do TDS:Upgrade(11) end
+for i = 1, 3 do TDS:SetOption(11, "Unit 1", "Field Medic") end
+TDS:Upgrade(11)
+TDS:Place("Turret", -8.004199028015137, 0.990230143070221, 44.13005828857422, true)
+for i = 1, 5 do TDS:Upgrade(12) end
+TDS:Place("Turret", -8.004199028015137, 0.990230143070221, 44.13005828857422, true)
+for i = 1, 5 do TDS:Upgrade(13) end
+TDS:Place("Turret", -8.004199028015137, 0.990230143070221, 44.13005828857422, true)
+for i = 1, 5 do TDS:Upgrade(14) end
