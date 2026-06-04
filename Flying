@@ -1,0 +1,68 @@
+local TDS = loadstring(game:HttpGet("https://raw.githubusercontent.com/AmonguszzZ/AetherMods/refs/heads/main/Library.lua"))()
+TDS:Loadout("Ace Pilot", "Tesla", "DJ Booth", "Mercenary Base", "Gatling Gun")
+TDS:Mode("Trial")
+TDS:Ready()
+TDS:Place("Ace Pilot", -6.366527557373047, 0.40000611543655396, -16.1011905670166, true)
+TDS:Ability(1, "Toggle Reverse")
+for i = 1,3 do TDS:Upgrade(1) end
+TDS:Place("Ace Pilot", 18.78887939453125, 0.3999936580657959, 14.799650192260742, true)
+for i = 1,2 do TDS:Upgrade(2) end
+TDS:Ability(2, "Toggle Reverse")
+TDS:SetOption(2, "Flight Path", "Figure8")
+TDS:SetOption(1, "Flight Path", "Figure8")
+TDS:Place("Gatling Gun", -6.366527557373047, 0.40000611543655396, -16.1011905670166, true)
+TDS:Upgrade(3)
+TDS:Place("DJ Booth", -6.366527557373047, 0.40000611543655396, -16.1011905670166, true)
+for i = 1,2 do TDS:Upgrade(4) end
+TDS:SetOption(4, "Track", "Green")
+TDS:Upgrade(3)
+TDS:Upgrade(4)
+TDS:Upgrade(1)
+TDS:Upgrade(3)
+TDS:Upgrade(4)
+TDS:Upgrade(1)
+TDS:Place("Tesla", -6.366527557373047, 0.40000611543655396, -16.1011905670166, true)
+for i = 1,2 do TDS:Upgrade(5) end
+TDS:Upgrade(4)
+TDS:Place("Tesla", -6.366527557373047, 0.40000611543655396, -16.1011905670166, true)
+for i = 1,2 do TDS:Upgrade(6) end
+TDS:Place("Ace Pilot", -6.366527557373047, 0.40000611543655396, -16.1011905670166, true)
+for i = 1,3 do TDS:Upgrade(7) end
+TDS:SetOption(7, "Flight Path", "Figure8")
+for i = 1,2 do TDS:Upgrade(7) end
+for i = 1,4 do TDS:Upgrade(8) end
+TDS:SetOption(8, "Flight Path", "Figure8")
+TDS:Upgrade(8)
+for i = 1,3 do TDS:Upgrade(3) end
+TDS:Place("Ace Pilot", -6.366527557373047, 0.40000611543655396, -16.1011905670166, true)
+for i = 1,5 do TDS:Upgrade(9) end
+TDS:SetOption(9, "Flight Path", "Figure8")
+TDS:Place("Ace Pilot", -6.366527557373047, 0.40000611543655396, -16.1011905670166, true)
+for i = 1,5 do TDS:Upgrade(10) end
+TDS:SetOption(10, "Flight Path", "Figure8")
+TDS:Place("Ace Pilot", -6.366527557373047, 0.40000611543655396, -16.1011905670166, true)
+for i = 1,5 do TDS:Upgrade(11) end
+TDS:SetOption(11, "Flight Path", "Figure8")
+TDS:Place("Ace Pilot", -6.366527557373047, 0.40000611543655396, -16.1011905670166, true)
+for i = 1,5 do TDS:Upgrade(12) end
+TDS:SetOption(12, "Flight Path", "Figure8")
+TDS:Place("Ace Pilot", -6.366527557373047, 0.40000611543655396, -16.1011905670166, true)
+for i = 1,5 do TDS:Upgrade(13) end
+TDS:SetOption(13, "Flight Path", "Figure8")
+for i = 1,3 do TDS:Place("Mercenary Base", -6.366527557373047, 0.40000611543655396, -16.1011905670166, true) end
+for i = 1,6 do TDS:Upgrade(14) end
+TDS:SetOption(14, "Unit 1", "Rifleman")
+TDS:SetOption(14, "Unit 2", "Rifleman")
+TDS:SetOption(14, "Unit 3", "Rifleman")
+for i = 1,6 do TDS:Upgrade(15) end
+TDS:SetOption(15, "Unit 1", "Rifleman")
+TDS:SetOption(15, "Unit 2", "Rifleman")
+TDS:SetOption(15, "Unit 3", "Rifleman")
+for i = 1,6 do TDS:Upgrade(16) end
+TDS:SetOption(16, "Unit 1", "Rifleman")
+TDS:SetOption(16, "Unit 2", "Rifleman")
+TDS:SetOption(16, "Unit 3", "Rifleman")
+TDS:SetOption(4, "Track", "Red")
+
+
+
