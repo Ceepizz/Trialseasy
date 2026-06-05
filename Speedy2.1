@@ -3,12 +3,7 @@ TDS:Loadout("Turret", "Cowboy", "Gatling Gun", "Mercenary Base", "DJ Booth")
 TDS:Mode("Trial")
 TDS:Ready()
 TDS:VoteSkip(1,34)
-TDS:Place("Cowboy", 8.947320938110352, 3.59997820854187, 20.03247833251953, true)
-TDS:Place("Cowboy", 8.539993286132812, 3.59997820854187, 19.841753005981445, true)
-TDS:Place("Cowboy", 8.410665512084961, 3.59997820854187, 19.807832717895508, true)
-TDS:Place("Cowboy", 8.633238792419434, 3.59997820854187, 19.93375015258789, true)
-TDS:Place("Cowboy", 8.631087303161621, 3.59997820854187, 19.935222625732422, true)
-TDS:Place("Cowboy", 8.576066017150879, 3.59997820854187, 20.112869262695312, true)
+for i = 1,6 do TDS:Place("Cowboy", 8.947320938110352, 3.59997820854187, 20.03247833251953, true) end
 TDS:Upgrade(1)
 TDS:Upgrade(2)
 TDS:Upgrade(3)
@@ -44,7 +39,7 @@ TDS:Place("Mercenary Base", 20.393722534179688, 0.99994957447052, 18.48129081726
 for i=1,4 do TDS:Upgrade(11) end
 TDS:SetOption(11, "Unit 1", "Riot Guard")
 TDS:SetOption(11, "Unit 2", "Riot Guard")
-TDS:Upgrade(11)
+TDS:Upgrade(10)
 TDS:SetOption(11, "Unit 3", "Riot Guard")
 for i=1,2 do TDS:Upgrade(11) end
 TDS:Upgrade(11)
